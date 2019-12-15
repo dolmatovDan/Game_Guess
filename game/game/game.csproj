@@ -85,10 +85,13 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="succesForm.resx">
       <DependentUpon>succesForm.cs</DependentUpon>
@@ -105,6 +108,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\458824_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wall-stickers-hahaha-you-are-a-loser.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\e2-250-3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\depositphotos_35739875-stock-photo-white-gift-box-with-blue.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\depositphotos_35739875-stock-photo-white-gift-box-with-blue1.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

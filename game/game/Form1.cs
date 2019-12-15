@@ -15,6 +15,15 @@ namespace game
         public Form1()
         {
             InitializeComponent();
+           
+        }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            using (game gameForm = new game())
+            {
+                gameForm.ShowDialog();
+            }
         }
     }
 }
